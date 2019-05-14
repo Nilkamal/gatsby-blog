@@ -5,8 +5,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "SET GATSBY_GRAPHQL_IDE=playground&SET CONTENTFUL_SPACE_ID=jbk6qxz46i52&SET CONTENTFUL_API_TOKEN=z49PDcESJFlFjSXM8kYBArh--B-2hSK7t4inMw3NhD0&gatsby build",
+    "develop": "SET GATSBY_GRAPHQL_IDE=playground&SET CONTENTFUL_SPACE_ID=jbk6qxz46i52&SET CONTENTFUL_API_TOKEN=z49PDcESJFlFjSXM8kYBArh--B-2hSK7t4inMw3NhD0&gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
